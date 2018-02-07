@@ -43,17 +43,23 @@ body{
     height: 200px;
 }
 .logo{
-    margin-top: 20px;
-    margin-left: 170px;
+    top: 20px;
+    left: 170px;
     width: 150px;
+    position: relative;
+    z-index: 1;
 }
 
 .Bv{
-    margin-top: px;
-    margin-left: 375px;
     color: white;
      
     background-color: #245269;
-    width: 280px;
+}
+
+.superior{
     
+    position: relative;
+    z-index: 2;
+    left: 370px;
+    bottom: 100px;
 }
