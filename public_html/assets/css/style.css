@@ -2,64 +2,91 @@
     margin: 0;
     padding: 0;
 }
+ul{
+    list-style-type: disc;
+    margin: auto;
+    padding: 2px;
+}
 body{
-    background-color: #DCDCDC;
-    margin: 0px;
+    font-family: "Verdana" , Geneva ,sans-serif;
+    background-color: #e9e9e9;
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+    font-size: 12px
 }
 
-#barra1{
-    height: 30px;
+span{
+    padding: 4px;
+    align-content: center;
+}
+
+.barra-inicial, .lista-redes{
+    background-color: #b9b9b9;
     text-align: center;
-    background-color: #C0C0C0;
-    color: #000000;
 }
-
-#topo{
-    font-family: "monospace";
-}
-
-
-#login_cda{ 
-}
-
-.cor-principal{
-    color: red;
-}
-
-#icons{
-    padding-top: 2px;
-    padding-right: 0.0009%;
-    
-}
-#topo1{
-    padding-top: 5px;
-    text-align: right;
-    padding-right: 40px;
-}
-
-.cabecalho{
-    background-color: #000000;
-    width: 100%;
-    height: 200px;
-}
-.logo{
-    top: 20px;
-    left: 170px;
-    width: 150px;
-    position: relative;
-    z-index: 1;
-}
-
-.Bv{
-    color: white;
-     
-    background-color: #245269;
-}
-
-.superior{
-    
+.lista-redes{
     position: relative;
     z-index: 2;
-    left: 370px;
-    bottom: 100px;
+    left: 225px;
+}
+#cabecalho {
+    background-color: #000000;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.carrinho-v{
+    float: none;
+    display: compact;
+    margin-left: 50px;
+    line-height: 40px;
+    padding: 0;
+    font-size: 13px;
+}
+
+.menu .superior {
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    background: none;
+}
+
+.fundo-principal {
+    background-color: #ad0e0e;
+}
+.conteudo-topo .superior {
+    padding: 25px 0 25px;
+}
+
+.conteudo-topo  {
+    color: #FFF;
+    
+}
+.cor-vermelha {
+    color: #ad0e0e;
+}
+.cor-branca {
+    color: #FFF;
+}
+.pesquisa{
+    padding-top: 30px;
+}
+.search{
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+    z-index: 1;
+}
+#gli{
+    position: relative;
+    bottom: 6px;
+    right: 3px;
+    z-index: 3;
+}
+
+.menu-superior{
+    text-align: center;
+    font-size: 15px;
+    font-style: initial;
 }
