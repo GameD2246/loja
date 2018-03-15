@@ -113,6 +113,11 @@ span{
     z-index: 10;
     float: left;
 }
+.menu-1{
+    width: 100%;
+    height: 47px;
+    background-color: blue;
+}
 .menu{
     width: 800px;
     margin: auto;
@@ -130,7 +135,7 @@ span{
 .menu ul li{
     float: left;
     display: block;
-    width: 130px;
+    width: 120px;
 }
 .menu ul li a{
     color: #FFF;
@@ -138,6 +143,7 @@ span{
     text-decoration: none;
     padding: 15px 20px;
     display: block;
+    width: 160px;
 }
 .menu li ul{
     display: none;
@@ -146,12 +152,12 @@ span{
 .menu ul li a:hover{
     background: #152224;
     color: #FFF;
-    
 }
 .menu li:hover ul{
     display: block;
     position: absolute;
     z-index: 99;
+    
 }
 .menu li:hover li{
     float: none;
