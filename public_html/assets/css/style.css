@@ -114,8 +114,8 @@ span{
     float: left;
 }
 .menu{
-    width: 100%;
-    height: 50px;
+    width: 800px;
+    margin: auto;
     background-color: #000000;
     font-family: "Verdana";
 }
@@ -129,31 +129,34 @@ span{
 }
 .menu ul li{
     float: left;
-    position: relative;
     display: block;
+    width: 130px;
 }
 .menu ul li a{
     color: #FFF;
     background-color: #000000;
     text-decoration: none;
     padding: 15px 20px;
-    
     display: block;
 }
 .menu li ul{
     display: none;
+    
 }
 .menu ul li a:hover{
-    background: #141212;
+    background: #152224;
     color: #FFF;
+    
 }
 .menu li:hover ul{
     display: block;
-    position: relative;
+    position: absolute;
+    z-index: 99;
 }
 .menu li:hover li{
     float: none;
     font-size: 12px;
+    
 }
 .listagem .titulo-categoria, .listagem.aproveite-tambem,.titulo {
     border-top: none;
