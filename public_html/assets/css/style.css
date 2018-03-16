@@ -6,6 +6,7 @@ ul{
     list-style-type: none;
     margin: auto;
     padding: 2px;
+    display: inline;
 }
 body{
     font-family: "Verdana" , Geneva ,sans-serif;
@@ -40,15 +41,20 @@ span{
     background-color: #000000;
     margin: 0;
 }
+
+#gli{
+    
+}
 .carrinho-v{
-    float: left;
-    margin-left: 25px;
-    margin-bottom: 20px; 
-    line-height: px;
     font-size: 13px;
-    background-color: #FFF
+    background-color: white;
+    margin: auto;
+    
 }
 .carrv{
+    background-color: red;
+    bottom: 25px;
+    height: 34px;
     
 }
 .superior {
@@ -105,13 +111,6 @@ span{
     bottom: 5px;
     right: 3px;
     z-index: 1;
-}
-#gli{
-    position: relative;
-    bottom: 102px;
-    left: 10px;
-    z-index: 10;
-    float: left;
 }
 .menu-1{
     width: 100%;
