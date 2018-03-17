@@ -205,8 +205,26 @@ h5{
     height: 70px;
     text-align: center;
 }
-.email h6{
+.email{
     padding-top: 18px;
+    text-align: center;
+    margin: auto;
+}
+.email1{
+    position: relative;
+    z-index: 100;
+    left: 25px;
+}
+.email2{
+    
+    position: relative;
+    z-index: 101;
+    right: 350px;
+    background-color: #696969;
+}
+.email{
+    text-align: right;
+    
 }
 
 
