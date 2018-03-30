@@ -43,6 +43,12 @@ body{
     padding-top: 20px; 
     padding-bottom: 40px;
 }
+.nome-produto{
+    color: #ad0e0e;
+    font-size: 13.5px;
+    margin: 0;
+    padding: 0;
+}
 .bem{
     font-weight: bold;
 }
@@ -201,6 +207,57 @@ h5{
 .margin{
     margin-top: 23px;
 }
+.marginb{
+    margin-bottom: 5px;
+}
 .rodape ul{
     list-style-type:inherit;
+}
+.listagem .info-produto {
+    padding: 15px 5px 10px;
+    position: relative;
+}
+
+.listagem .listagem-item {
+    margin-left: 3%;
+    padding: 0;
+}
+.listagem-item .produto-sobrepor {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(255,255,255,0);
+}
+.borda-alpha, .borda-alpha * {
+    border-color: rgba(0,0,0,0.13);
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.listagem .preco-produto .preco-venda {
+    color: #ad0e0e;
+}
+.preco-produto strong.titulo {
+    font-size: 16px;
+    white-space: nowrap;
+}
+.titulo {
+    font-family: 'Oswald',Arial,sans-serif;
+    font-weight: 400;
+    text-rendering: inherit;
+}
+strong {
+    font-weight: bold;
+}
+
+.titulo {
+    font-family: 'Raleway' , serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
