@@ -207,9 +207,6 @@ h5{
 .margin{
     margin-top: 23px;
 }
-.marginb{
-    margin-bottom: 5px;
-}
 .rodape ul{
     list-style-type:inherit;
 }
@@ -260,4 +257,10 @@ strong {
     font-family: 'Raleway' , serif;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.titulo-rodape{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #2E2E2E;
+    font-size: 18px;
 }
