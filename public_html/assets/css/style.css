@@ -55,11 +55,19 @@ body{
 .fundo-principal {
     background-color: #ad0e0e;
 }
+.logo{
+    text-align: center;
+    position: relative;
+    z-index: 50;
+}
 .cor-principal{
     color: #A9A9A9;
 }
 .conteudo-topo  {
     color: #FFF;
+    margin: auto;
+    padding: auto;
+    position: relative;
 }
 .cor-vermelha {
     color: #ad0e0e;
@@ -133,7 +141,7 @@ h5{
     height: 47px;
 }
 .menu{
-    width: 800px;
+    width: 755px;
     margin: auto;
     background-color: #000000;
     font-family: "Verdana";
