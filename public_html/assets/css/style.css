@@ -12,11 +12,11 @@ ul{
     margin-bottom: 30px;
 }body{
     font-family: "Verdana" , Geneva ,sans-serif;
-    background-color: #e9e9e9;
+    background-color: #FFF;
     background-position: top center;
     background-attachment: scroll;
     background-repeat: repeat-y;
-    font-size: 12px
+    font-size: 12px;
 }
 .barra-inicial, .lista-redes{
     background-color: #b9b9b9;
@@ -167,7 +167,6 @@ h5{
     text-decoration: none;
     padding: 15px 20px;
     display: block;
-    width: 160px;
 }
 .menu li ul{
     display: none;
@@ -273,4 +272,76 @@ strong {
     padding-bottom: 20px;
     border-bottom: 1px solid #2E2E2E;
     font-size: 18px;
+}
+
+@media(min-width: 600px) and (max-width: 768px){
+    .imagem-produto, .info-produto{
+        float: left;
+        width: 48%;
+    }
+    .nome-produto{
+        font-size: 18px;
+    }
+    .preco-venda{
+        font-size: 15px;
+    }
+    .clear{
+        clear: both;
+    }
+}
+
+
+
+/*=============================================Pagina de Produto=============================================*/
+
+
+
+#corpo {
+    margin-bottom: 30px;
+}
+
+#corpo .conteiner>div {
+    margin-bottom: 20px;
+}
+.breadcrumbs {
+    border-top: none;
+    margin-top: -10px !important;
+}
+.borda-alpha, .borda-alpha * {
+    border-color: rgba(0,0,0,0.13);
+}
+.breadcrumbs {
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 10px 0;
+    margin: 0 0 20px;
+}
+
+.barra{
+    width: 1px;
+    height: 12px;
+    background: #A9A9A9;
+    margin-top: 2px; 
+}
+.borda-principal {
+    border-width: 2px 0 0;
+    border-style: solid;
+}
+.ativo{
+    box-shadow: 2px 2px 0.5px #b9b9b9;
+}
+.ativo ul li{
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    padding: 10px;
+    color: #ad0e0e;
+}
+.ativo ul li:hover {
+    background-color: #cecece;
+}
+.ativo ul li a{
+    color: #ad0e0e;
+}
+.titulo-produto{
+    font-size: 20px;
 }
