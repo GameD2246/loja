@@ -1,16 +1,682 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
         <meta charset="UTF-8">
+        <title>Loja</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../assets/bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link href="../../assets/js/bootstrap.js">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="barra-inicial">           <!--barra superior-->
+            <div class="container">
+                <div class="row-fluid hidden-xs hidden-sm">
+                    <div class="col-md-3 ">                <!--ICONES ESQUERDO-->
+                        <ul class="list-inline">
+                            <li class="lista-esquerda">
+                                <img src="../../img/instagram (2).png">
+                            </li>
+                            <li class="lista-esquerda">
+                                <img src="../../img/twitter(2).png">
+                            </li>
+                            <li class="lista-esquerda">
+                                <img src="../../img/facebook(1).png">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-9 hidden-xs lista-direita">                 <!--ICONES DIREITO-->
+                        <ul class="list-inline " >
+                            <li>
+                                <img src="../../img/Balao.png">
+                                Fale Conosco
+                            </li>
+                            <li class="bor">
+                                Telefone (84) 99811-9186
+                            </li>
+                            <li>
+                                <img src="../../img/Balao.png">
+                                Whatsapp (84) 99811-9186
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div id="cabecalho"><!--CABEÇALHO-->
+                <div class="container">
+                    <div class="row-fluid">
+
+
+                        <div class="col-md-2 logo"><!--LOGO-->
+                            <h1>
+                                <a href="../../index.html" title="Dimensão 13">
+                                    <img src="../../img/Cabecalho.png" alt="Dimensão 13">
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="conteudo-topo col-md-10">
+                            <div class="erior row-fluid hidden-xs hidden-sm">
+                                <div class="col-md-6 cor-secundaria ">
+
+                                    Bem-Vindo, 
+                                    <a href=""><span class="cor-vermelha bem"> identifique-se</span></a>
+                                    para fazer pedidos
+
+
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-inline ped ">
+                                        <li>
+                                            <span class="glyphicon glyphicon-th-list fundo-principal icon" ></span>
+                                            <a class="cor-branca">Meus Pedidos</a>
+                                        </li>
+                                        <li>
+                                            <span class="glyphicon glyphicon-user fundo-principal icon"></span>
+                                            <a class="cor-branca">Minha Conta</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="col-md-8 col-sm-10 pesquis ">
+                                    <a href="">
+
+                                    </a>
+                                    <div class="input-group pesquisa" >
+                                        <input type="text" class="form-control pesqui" placeholder="Digite o que você procura">
+                                        <span class="input-group-btn search ">
+                                            <button class="btn btn-default btn-lg glyphicon button glyphicon-search " type="button"></button>
+                                        </span>
+                                    </div><!-- /input-group -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-2 hidden-xs carrinho-v">
+                                <div class="row">
+                                    <span class="glyphicon btn-sm glyphicon-shopping-cart gly"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="menu-1"><!--Navbar-->
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="paginas/masculina/paginas-produtos-masc.html">Masculino</a>
+                                <ul>
+                                    <li><a href="paginas/masculina/paginas-produtos-masc-camisetas.html">Camisetas</a></li>
+                                    <li><a href="paginas/masculina/paginas-produtos-masc-camisetas-basicas.html">Camisetas Básicas</a></li>
+                                    <li><a href="paginas/masculina/paginas-produtos-masc-camisetas-regatas.html">Regata</a></li>
+                                    <li><a href="paginas/masculina/paginas-produtos-masc-camisetas-manga-longa.html">Manga Longa</a></li>
+                                    <li><a href="paginas/masculina/paginas-produtos-masc-camisetas-manga-longa.html">Moletom Unissex</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../feminino/paginas-produtos-fem.html">Feminino</a>
+                                <ul>
+                                    <li><a href="../feminino/paginas-produtos-fem-camisetas.html">Camisetas</a></li>
+                                    <li><a href="../feminino/paginas-produtos-fem-camisetas-basicas.html">Camisetas Básicas</a></li>
+                                    <li><a href="../feminino/paginas-produtos-fem-camisetas-regatas.html">Regata</a></li>
+                                    <li><a href="../feminino/paginas-produtos-fem-camisetas-manga-longa.html">Manga Longa</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Kids</a>
+                                <ul>
+                                    <li><a href="#">Camisetas</a></li>
+                                    <li><a href="#">Promoções</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Canecas</a></li>
+                            <li><a href="#">Posters</a></li>
+                            <li><a href="#">Outros</a>
+                                <ul>
+                                    <li><a href="#">Bottons</a></li>
+                                    <li><a href="#">Chaveiros</a></li>
+                                    <li><a href="#">Embalagem para presentes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--Conteiner cabecalho-->
+        </div>
+        <div id="baners"><!--BANERS-->
+
+        </div>
+
+
+
+
+
+        <div id="corpo">
+            <div class="container">
+                <div class="breadcrumbs borda-alpha hidden-sm hidden-xs">
+                    <ul class="list-inline "><li><i class="cor-principal glyphicon glyphicon-home"></i></li>
+                        <li><a class="cor-principal" href="../../index.html">Página inicial</a>
+                        </li>
+                        <li>
+                            <div class="barra"></div>
+                        </li>
+                        <li><a class="cor-principal" href="paginas-produtos-masc.html">Maculino</a>
+                        </li>
+                        <li>
+                            <div class="barra"></div>
+                        </li>
+                        <li>
+                            <strong ><a class="cor-vermelha" href="paginas-produtos-masc-camisetas-manga-longa.html">Manga longa</a></strong>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-3 hidden-xs" >
+
+                        <div class="menu-lateral">
+
+                            <ul class="nivel-um">
+                                <li class="ativo  borda-principal">
+                                    <ul class="nivel-dois borda-alpha">
+                                        <li>
+                                            <a href="" title="Masculino">
+                                                <strong class="titulo-produto">Masculino</strong>
+                                            </a>
+                                            <span class="glyphicon glyphicon-menu-down " aria-hidden="true"></span>
+                                        </li>
+                                        <li class="">
+                                            <a href="paginas-produtos-masc-camisetas.html" title="Camisetas">
+
+                                                <label>Camisetas</label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="paginas-produtos-masc-camisetas-basicas.html" title="Camisetas Básicas">
+
+                                                <label>Camisetas Básicas</label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="paginas-produtos-masc-camisetas-regatas.html" title="Camisetas Surpresas">
+
+                                                <label>Regatas</label>
+                                            </a>
+                                        </li>
+
+                                        <li class="selecao">
+                                            <a href="paginas-produtos-masc-camisetas-manga-longa.html" title="Manga Longa ">
+
+                                                <label>Manga Longa </label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="paginas-produtos-masc-moletom-unissex.html" title="Moletom Unissex">
+
+                                                <label>Moletom Unissex</label>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="menu-lateral">
+
+                            <ul class="nivel-um">
+                                <li class="ativo  borda-principal">
+                                    <ul class="nivel-dois borda-alpha">
+                                        <li class="">
+                                            <a href="" title="Camisetas">
+
+                                                <label>Feminino</label>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" title="Camisetas">
+
+                                                <label>Kids</label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="" title="Camisetas Básicas">
+
+                                                <label>Canecas</label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="" title="Camisetas Surpresas">
+
+                                                <label>Posters</label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="" title="Manga Longa ">
+
+                                                <label>Outros </label>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="menu-lateral">
+
+                            <ul class="nivel-um">
+                                <li class="ativo  borda-principal">
+                                    <ul class="nivel-dois borda-alpha">
+                                        <li>
+                                            <a href="" title="filtrar-por-preco">
+                                                <strong class="titulo-produto">Filtrar por Preço</strong>
+                                            </a>
+                                            <span class="glyphicon glyphicon-menu-down " aria-hidden="true"></span>
+                                        </li>
+                                        <li class="">
+                                            <a href="" rel="">
+                                                <label>
+
+                                                    de R$ 1,00
+                                                    até R$ 24,99
+
+                                                    <small>()</small>
+                                                </label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="" rel="">
+                                                <label>
+
+                                                    de R$ 25,00
+                                                    até R$ 49,99
+
+                                                    <small>()</small>
+                                                </label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="" rel="">
+                                                <label>
+
+                                                    de R$ 50,00
+                                                    até R$ 69,99
+
+                                                    <small>()</small>
+                                                </label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="" rel="">
+                                                <label>
+
+                                                    de R$ 70,00
+                                                    até R$ 99,99
+
+                                                    <small>()</small>
+                                                </label>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="" rel="">
+                                                <label>
+
+                                                    de R$ 100,00
+                                                    até R$ 199,99
+
+                                                    <small>()</small>
+                                                </label>
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="" rel="">
+                                                <label>
+
+                                                    de R$ 200,00
+                                                    até R$ 399,99
+
+                                                    <small>()</small>
+                                                </label>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-9">
+
+                        <div class="ordenar-listagem">
+
+                            <div class="row">
+                                <div class="col-md-5 col-sm-4 col-xs-6 cor-vermelha">
+                                    <h4>Manga longa</h4>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6">
+                                    <div>
+                                        <div class="ordenar-lista">
+
+                                            <label for="botaoOrdenar">Escolher ordem</label>
+
+                                            <div class="btn-group">
+                                                <button class="btn dropdown-toggle buttom" id="botaoOrdenar" data-toggle="dropdown">
+                                                    <i class="glyphicon glyphicon-arrow-down"></i>
+                                                </button>										
+
+                                                <ul class="dropdown-menu pull-left">
+                                                    <li><a href=""><i class="glyphicon glyphicon-font" style="margin-left: -3px; margin-right: 9px;"></i>Ordem alfabética</a></li>
+                                                    <li><a href="" ><i class="glyphicon glyphicon-shopping-cart" style="margin-left: -3px; margin-right: 9px;"></i>Mais vendidos</a></li>
+                                                    <li><a href="" ><i class="glyphicon glyphicon-usd" style="margin-left: -3px; margin-right: 9px;"></i>Menor preço</a></li>
+                                                    <li><a href="" ><i class="glyphicon glyphicon-usd" style="margin-left: -3px; margin-right: 9px;"></i>Maior preço</a></li>
+                                                </ul>
+                                            </div>						
+                                        </div>
+                                    </div>	
+
+
+                                </div>
+                                <div class="col-md-3 col-sm-4 hidden-xs">
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div>
+
+
+                            <ul class="produtos">
+                                <li class="listagem-linha">
+                                    <ul class="row">
+                                        <li class="col-md-3 col-sm-3 clear">
+                                            <div class="listagem-item">
+                                                <a href="#" class="produto-sobrepor"></a>
+                                                <div class="imagem-produto">
+                                                    <img src="../../img/Produtos/fe3c10067a.jpg" class="imagem-principal">
+
+                                                </div>
+                                                <div class="info-produto">
+                                                    <a href="" class="nome-produto cor-secundaria">Camiseta Um Dia de Fúria - Masculina</a>
+                                                    <div class="produto-sku hide">camiseta_um_dia_de_furia_masc</div>
+                                                    <div data-trustvox-product-code="25688882" class="hide trustvox-stars"></div>
+                                                    <div>
+                                                        <div class="preco-produto destaque-preco ">
+                                                            <div>
+                                                                <span class="preco-a-partir">
+                                                                    <span>A partir de</span>
+                                                                    <strong class="preco-venda cor-vermelha titulo">R$64,90</strong>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="preco-parcela ">
+                                                                    até
+                                                                    <strong class="">2x</strong>
+                                                                    de
+                                                                    <strong class="">R$ 32,45</strong>
+                                                                    <span>sem juros</span>
+                                                                </span>
+                                                            </div>
+                                                            <span class="">
+                                                                ou <strong class="">R$ 61,66</strong>
+                                                                via depósito
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="acoes-produto hidden-sm hidden-xs"></div>
+                                                <div class="acoes-produto visible-xs visible-sm"></div>
+                                            </div>
+                                        </li>
+                                        <li class="col-md-3 col-sm-3 clear">
+                                            <div class="listagem-item">
+                                                <a href="#" class="produto-sobrepor"></a>
+                                                <div class="imagem-produto">
+                                                    <img src="../../img/Produtos/fe3c10067a.jpg" class="imagem-principal">
+
+                                                </div>
+                                                <div class="info-produto">
+                                                    <a href="" class="nome-produto cor-secundaria">Camiseta Um Dia de Fúria - Masculina</a>
+                                                    <div class="produto-sku hide">camiseta_um_dia_de_furia_masc</div>
+                                                    <div data-trustvox-product-code="25688882" class="hide trustvox-stars"></div>
+                                                    <div>
+                                                        <div class="preco-produto destaque-preco ">
+                                                            <div>
+                                                                <span class="preco-a-partir">
+                                                                    <span>A partir de</span>
+                                                                    <strong class="preco-venda cor-vermelha titulo">R$64,90</strong>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="preco-parcela ">
+                                                                    até
+                                                                    <strong class="">2x</strong>
+                                                                    de
+                                                                    <strong class="">R$ 32,45</strong>
+                                                                    <span>sem juros</span>
+                                                                </span>
+                                                            </div>
+                                                            <span class="">
+                                                                ou <strong class="">R$ 61,66</strong>
+                                                                via depósito
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="acoes-produto hidden-sm hidden-xs"></div>
+                                                <div class="acoes-produto visible-xs visible-sm"></div>
+                                            </div>
+                                        </li>
+                                        <li class="col-md-3 col-sm-3 clear">
+                                            <div class="listagem-item">
+                                                <a href="#" class="produto-sobrepor"></a>
+                                                <div class="imagem-produto">
+                                                    <img src="../../img/Produtos/fe3c10067a.jpg" class="imagem-principal">
+
+                                                </div>
+                                                <div class="info-produto">
+                                                    <a href="" class="nome-produto cor-secundaria">Camiseta Um Dia de Fúria - Masculina</a>
+                                                    <div class="produto-sku hide">camiseta_um_dia_de_furia_masc</div>
+                                                    <div data-trustvox-product-code="25688882" class="hide trustvox-stars"></div>
+                                                    <div>
+                                                        <div class="preco-produto destaque-preco ">
+                                                            <div>
+                                                                <span class="preco-a-partir">
+                                                                    <span>A partir de</span>
+                                                                    <strong class="preco-venda cor-vermelha titulo">R$64,90</strong>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="preco-parcela ">
+                                                                    até
+                                                                    <strong class="">2x</strong>
+                                                                    de
+                                                                    <strong class="">R$ 32,45</strong>
+                                                                    <span>sem juros</span>
+                                                                </span>
+                                                            </div>
+                                                            <span class="">
+                                                                ou <strong class="">R$ 61,66</strong>
+                                                                via depósito
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="acoes-produto hidden-sm hidden-xs"></div>
+                                                <div class="acoes-produto visible-xs visible-sm"></div>
+                                            </div>
+                                        </li>
+                                        <li class="col-md-3 col-sm-3 clear">
+                                            <div class="listagem-item">
+                                                <a href="#" class="produto-sobrepor"></a>
+                                                <div class="imagem-produto">
+                                                    <img src="../../img/Produtos/fe3c10067a.jpg" class="imagem-principal">
+
+                                                </div>
+                                                <div class="info-produto">
+                                                    <a href="" class="nome-produto cor-secundaria">Camiseta Um Dia de Fúria - Masculina</a>
+                                                    <div class="produto-sku hide">camiseta_um_dia_de_furia_masc</div>
+                                                    <div data-trustvox-product-code="25688882" class="hide trustvox-stars"></div>
+                                                    <div>
+                                                        <div class="preco-produto destaque-preco ">
+                                                            <div>
+                                                                <span class="preco-a-partir">
+                                                                    <span>A partir de</span>
+                                                                    <strong class="preco-venda cor-vermelha titulo">R$64,90</strong>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="preco-parcela ">
+                                                                    até
+                                                                    <strong class="">2x</strong>
+                                                                    de
+                                                                    <strong class="">R$ 32,45</strong>
+                                                                    <span>sem juros</span>
+                                                                </span>
+                                                            </div>
+                                                            <span class="">
+                                                                ou <strong class="">R$ 61,66</strong>
+                                                                via depósito
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="acoes-produto hidden-sm hidden-xs"></div>
+                                                <div class="acoes-produto visible-xs visible-sm"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>   
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="email"><!--CADASTRAR E-MAIL-->
+            <div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div id="rodape" ><!--RODAPÉ-->
+            <div class="institucional fundo-secundario" >
+                <div class="container-fluid" >
+                    <div class="row-fluid" >
+                        <div class="col-md-9 col-sm-12" >
+                            <div class="row-fluid rodape">
+                                <div class="col-md-3 col-sm-3 margin">
+                                    <h5 class="titulo-rodape ">CATEGORIAS</h5>
+                                    <ul>
+                                        <li class=" ">
+                                            <a href="#">Masculino</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Feminino</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Kids</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Caneas</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Posters</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Outros</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-sm-3 margin links-rodape-paginas">
+                                    <h5 class="titulo-rodape">CONTEÚDO</h5>
+                                    <ul class="">
+                                        <li class="">
+                                            <a href="#">Fale conosco</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Medidas das Camisetas</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Troca ou devolução</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Formas de Pagamentos e Envios</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Promoções e Sorteios</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#">Perguntas Frequentes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 col-sm-3 margin">
+                                    <h5 class="titulo-rodape">SOBRE A LOJA</h5>
+
+                                </div>
+                                <div class="col-md-3 col-sm-3 margin">
+                                    <h5 class="titulo-rodape">Contato</h5>
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <i class=""></i> Telefone: (84) 7070-7070
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="">
+                                                <i class=""></i> Whatsapp: (84) 99811-9186
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class=""></i> E-mail: d13nerdstore@gmail.com
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 hidden-sm"></div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
     </body>
 </html>
