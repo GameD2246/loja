@@ -328,7 +328,7 @@ strong {
     border-style: solid;
 }
 .ativo{
-    box-shadow: 2px 2px 0.5px #b9b9b9;
+    box-shadow:  2px 2px 0.5px #b9b9b9;
 }
 .ativo ul li{
     border-width: 0 2px 2px 2px;
@@ -337,11 +337,42 @@ strong {
     color: #ad0e0e;
 }
 .ativo ul li:hover {
-    background-color: #cecece;
+    background: rgb(128, 128, 128);
+background: -moz-linear-gradient(90deg, rgb(128, 128, 128) 0%, rgb(232, 232, 232) 14%);
+background: -webkit-linear-gradient(90deg, rgb(128, 128, 128) 0%, rgb(232, 232, 232) 14%);
+background: -o-linear-gradient(90deg, rgb(128, 128, 128) 0%, rgb(232, 232, 232) 14%);
+background: -ms-linear-gradient(90deg, rgb(128, 128, 128) 0%, rgb(232, 232, 232) 14%);
+background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(232, 232, 232) 14%);
 }
 .ativo ul li a{
     color: #ad0e0e;
 }
 .titulo-produto{
     font-size: 20px;
+}
+.ordenar-listagem{
+    position: relative;
+    top: 20px;
+}
+.ordenar-listagem h4{
+    font-size: 25px;
+}
+.ordenar-listagem label {
+    font-size: 12px;
+    float: left;
+    padding: 7px 12px;
+    border: 1.2px solid rgba(0,0,0,0.2);
+    border-radius: 4px 0 0 4px;
+    height: 35px;
+    text-align: center;
+}
+.buttom{
+    position: relative;
+    right: 2px;
+    z-index: -1;
+    height: 35px;
+}
+
+.selecao{
+    background-color: #cecece;
 }
