@@ -409,6 +409,7 @@ strong {
     margin-right: auto;
     text-align: center;
     overflow: hidden;
+    padding-top: 21px;
 }
 .rolagem img{
     width: 320px;
@@ -535,4 +536,10 @@ strong {
     padding-bottom: 40px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.medida-produto{
+    border-top: 1px solid #b9b9b9;
+    padding-top: 30px;
+    margin: 28px
 }
