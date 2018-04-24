@@ -71,6 +71,9 @@ ul{
     padding: auto;
     position: relative;
 }
+.conteudo-topo a:hover{
+    text-decoration: underline #ad0e0e;
+}
 .cor-vermelha {
     color: #ad0e0e;
 }
@@ -92,7 +95,15 @@ ul{
     position: relative;
     z-index: 3;
     color: #FFF;
+    
 }
+.ped a{
+}
+.ped a:hover{
+    color: #FFF;
+    text-decoration: underline #FFF;
+}
+
 .pesqui{
     top: 1px;
     left: 1.9px;
@@ -129,6 +140,9 @@ ul{
     font-size: 13px;
     color: #FFF;
     height: 50px;
+}
+.carrinho-v a:hover{
+    color:#FFF;
 }
 .cv{
     color: #FFF;
@@ -258,6 +272,11 @@ h5{
     font-weight: 400;
     text-rendering: inherit;
 }
+.titulo-login {
+    font-family: 'Oswald',Arial,sans-serif;
+    font-size:30px;
+    text-rendering: inherit;
+}
 strong {
     font-weight: bold;
 }
@@ -384,7 +403,12 @@ strong {
 #corpo{
     padding-top: 5px;
 }
-
+#baners{
+    text-align: center;
+}
+#baner{
+    width: 75%;
+}
 .fotos{
     height: 600px;
 }
