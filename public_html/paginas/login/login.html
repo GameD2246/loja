@@ -156,56 +156,60 @@
             <div class="cabecalho-interno row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <h1 class="titulo-login cor-vermelha">Identificação <small>Faça o seu login ou crie uma conta caso ainda não possua cadastro</small> </h1>
+                    <h4 class="cor-vermelha">Identificação <small>Faça o seu login ou crie uma conta caso ainda não possua cadastro</small> </h4>
                 </div>
                 <div class="col-md-1"></div>
             </div>
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <div class="borda-principal">
-                        <form action="" method="post" class="form-horizontal">
+                    <div class="borda-principal borda-login">
+                        <form action="" method="post" class="form-horizontal login">
 
                             <input type="hidden" name="next" id="next" value="conta_index" />
 
                             <fieldset>
-                                <legend class="titulo-login-1 cor-vermelha borda-alpha"><i class="glyphicon glyphicon-user"></i>Já sou cadastrado</legend>
+                                <legend class="titulo-login-1 cor-vermelha borda-alpha"><i class="glyphicon glyphicon-user gly-titulo-login"></i><strong>Já sou cadastrado</strong></legend>
                                 <div class="control-group ">
-                                    <label for="id_email" class="control-label">E-mail:</label>
+                                    <label for="id_email" class="control-label cor-cinza">E-mail:</label>
                                     <div class="controls">
-                                        <input class="span9" id="id_email" maxlength="128" name="email" type="text" />
+                                        <input class="form-control" id="id_email" maxlength="128" name="email" type="text" />
 
                                     </div>
                                 </div>
                                 <div class="control-group ">
-                                    <label for="id_senha" class="control-label">Senha:</label>
-                                    <div class="controls">
-                                        <input id="id_senha" maxlength="32" name="senha" type="password" />
-                                        <button type="submit" class="botao principal">Prosseguir</button>
-
+                                    <label for="id_senha" class="control-label cor-cinza">Senha:</label>
+                                    <div class="controls recuperar-senha">
+                                        <input id="id_senha" class="form-control" maxlength="32" name="senha" type="password" />
+                                        <button type="submit" class="btn entrar-login">Prosseguir</button>
+                                        <a href="#modalRecuperarSenha" data-toggle="modal" data-target="#modalRecuperarSenha" class=" cor-vermelha bem">
+                                            <i class="glyphicon glyphicon-lock cor-secundaria "></i>
+                                            Esqueceu a senha?
+                                        </a>
                                     </div>
                                 </div>
-                                <a href="#modalRecuperarSenha" data-toggle="modal" data-target="#modalRecuperarSenha" class="recuperar-senha">
-                                    <i class="icon-lock cor-secundaria"></i>
-                                    Esqueceu a senha?
-                                </a>
+
                             </fieldset>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="caixa-sombreada borda-principal">
+                    <div class="caixa-sombreada borda-principal borda-login">
 
-                        <form action="" method="post">
+                        <form action="" method="post" class="">
 
                             <input type="hidden" name="next" value="conta_index" />
 
-                            <fieldset>
-                                <legend class="titulo-login-1 cor-secundaria borda-alpha"><i class="icon-edit"></i>Ainda não possuo cadastro</legend>
-                                <label for="id_email">Digite o email que deseja cadastrar:</label>
-                                <div>
-                                    <input class="span8" id="id_email" maxlength="128" name="email" type="text" />
-                                    <button type="submit" class="botao principal">Cadastrar</button>
+                            <fieldset class="login">
+                                <legend class="titulo-login-1 cor-vermelha borda-alpha"><i class="glyphicon glyphicon-edit gly-titulo-login"></i><strong>Ainda não possuo cadastro</strong></legend>
+
+                                <div class="control-group cadastro-login">
+                                    <label for="id_email" class="control-label cor-cinza">Digite o email que deseja cadastrar:</label>
+                                    <div class="controls">
+                                        <input id="id_senha" class="form-control" maxlength="32" name="senha" type="password" />
+                                        <button type="submit" class="btn entrar-login">Prosseguir</button>
+
+                                    </div>
                                 </div>
                             </fieldset>
                         </form>
